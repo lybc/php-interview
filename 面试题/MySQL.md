@@ -9,6 +9,13 @@ text: 文本
 varchar 是字符串，可存储可变长度的字符
 char 是字符，只能存储定长的字符
 
+## 主键索引和唯一索引的区别
+一个表只能有一个主键索引，可以有多个唯一索引
+
+主键索引一定是唯一索引，唯一索引不一定是主键索引
+
+主键可以与外键构成参照完整性约束，防止数据不一致
+
 ## 熟悉的Mysql存储引擎有哪些？区别是？
 
 ## mysql, redis, memcache，区别是什么
@@ -74,4 +81,5 @@ B. select * from t1 where name=x;
 C. select * from t1 where age=x and sex=x
 
 D. select * from t1 where addr=x
+
 

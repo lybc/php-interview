@@ -1,5 +1,7 @@
 # PHP 底层运行机制与原理
 
+[https://cloud.tencent.com/developer/article/1055801](https://cloud.tencent.com/developer/article/1055801)
+
 ## 设计理念
 
 - 多进程模型： 不同请求间互不干涉
